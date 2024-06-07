@@ -3370,6 +3370,7 @@ content: '';
     max-width: 600px;
     height: 300px;
     border-bottom: none;
+    background-color: white
     
 }
 .Sulloc-magnifier {
@@ -3381,7 +3382,7 @@ content: '';
     position: absolute;
     pointer-events: none;
     margin-top: -20px;
-    
+    background-color: white
 }
 .Sulloc-image-container {
     flex: 1;
