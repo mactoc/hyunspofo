@@ -1,0 +1,2018 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex9.css">
+    <style>
+        @font-face {
+  font-family: 'DungGeunMootf';
+  font-style: normal;
+  src: url("DungGeunMo.otf") format('embedded-opentype');
+  
+  
+}
+    </style>
+</head>
+<body>
+    <div id="animation-container">
+        <div id="typing-container">
+          <span id="typing-text"></span>
+          <span id="cursor">|</span>
+          
+        </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" charset="utf-8"></script>
+        
+        <div><img id="image" src="img/IMG_0361.PNG" alt="Image" /></div>
+        <div class="announcement">공지사항: Motion 팝업창에서 상세 요소가 표시되지 않을시 뒤로가기를 클릭해 주십쇼.</div>
+       
+    
+    <div class="square-container">
+        
+        <div class="square" data-popup-target="popup-1">
+            <img src="img/1144760.png" alt="">
+        </div>
+        <div class="square" data-popup-target="popup-2">
+            <img src="img/motionlogo.png" alt="">
+        </div>
+        <div class="square" data-popup-target="popup-3">
+            <img src="img/book-3.png" alt="">
+        </div>
+        <div class="square" data-popup-target="popup-4">
+          <img src="img/graphiclogo.png" alt="">
+        </div>
+        <div class="square" data-popup-target="popup-5">
+          <img src="img/weblogo.png" alt="">
+        </div>
+    </div>
+    
+    
+    <div class="popup" id="popup-1">
+      <div class="popup-content">
+        
+          <hr class="popup-line"> 
+          <div class="top-rectangle"></div>
+        
+          
+          <div class="top-rectangle3"></div>
+      
+          <div class="ppro"><h1>개인 프로필</h1></div>
+          <span span class="close-btn"><img src="img/close.png" alt=""></span>
+        <button id="back-btn"><img src="img/arrow.png" alt=""></button>
+        
+      </div>
+          <div class="scrollable-content">
+            <div class="popup-flex"> 
+              <img src="img/mephto.png" alt="Description" class="popup-image">
+             
+              <div class="popup-text-content"> 
+                  <h2>철학을 담고있는 디자이너</h2>
+                 
+                  <p>
+                    디자인은 시각적인 측면 뿐만 아니라 인간의 경험과 사회적 영향을 고려하여 아름다움에 의미를 부여하는 <br>
+                    창조적인 행위입니다. 이 신념을 바탕으로 가치와 철학을 담아 미적 감각과 조화롭게 결합하여 감동을 <br>
+                    전달하는 작품을 만드는 것을 저의 목표로 삼고 있습니다.
+                  <button id="learned-more-btn">더 알아보기</button> 
+                  <div class="top-rectangle4"></div>
+                  
+                  
+              </div>
+              
+          </div>
+          <div class="more-content">
+            
+            <h1 class="aboutme"> <strong>About Me</strong> </h1>
+            <h1 class="aboutme2"> <strong>About Me</strong> </h1>
+            <div class="info-grid">
+              <div class="info-section">
+                <h2>PERSONAL INFOS</h2>
+                <hr class="side-line1"> 
+
+                <div class="info-row">
+                    <div class="info-column">
+                        <p>이름:  <strong>나재현</strong></p>
+                        <p>나이:  <strong>(만)24세</strong></p>
+                        <p>생년월일: <strong>1999. 10. 02</strong></p>
+                        <p>국적: <strong>대한민국</strong></p>
+                        <p>주소: <strong>서울특별시 구로구 경인로240 <br> 101동 1805호</strong></p>
+                    </div>
+                    <div class="info-column">
+                        <p>전화번호: <strong>010 9126 7072</strong></p>
+                        <p>Email: <strong>jehyun1002@gmail.com</strong></p>
+                        <p>취미: <strong>베이킹, 명상, 여행, 독서</strong></p>
+                        <p>MBTI: <strong>INTP</strong></p>
+                        <p>언어: <strong>한국어 영어</strong></p>
+                    </div>
+                </div>
+            </div>
+                <div class="info-more">
+                    <h2>학업</h2><br>
+                    <hr class="side-line2"> 
+                    <p>양천고등학교 2015. 03. 02 ~ 2018. 02. 10</p>
+                    <p>서울 폴리텍 대학교 강서 캠퍼스 2022. 03. 02 ~ 2024. 02.10</p><br>
+                    <h2>경험 및 수상 경력</h2>
+                    <hr class="side-line3"> 
+                    <p>형제옵틱스 2018. 09. 01 ~ 2020. 03. 15</p>
+                    <p>제 29회 디자인커뮤니케이션 공모전 입상</p><br>
+                    <h2>자격증</h2>
+                    <hr class="side-line3"> 
+                    <p>운전면허증 1종</p>
+                    
+                </div>
+            </div>
+            <div class="skills-section">
+                <h1>My Skills</h1>
+                
+    
+                    <div class="container">
+                        <div class="box">
+                          <div class="chart" data-percent="90" >90%</div>
+                          <h2>Photoshop</h2>
+                          <div class="chart" data-percent="85" >85%</div>
+                          <h2>After Effect</h2>
+                          
+                        </div>
+                        <div class="box">
+                     
+                          <div class="chart" data-percent="90" >90%</div>
+                          <h2>Illustrator</h2>
+                          <div class="chart" data-percent="80" >80%</div>
+                          <h2>Indesign</h2>
+                        </div>
+                        <div class="box">
+                            <div class="chart" data-percent="85" >85%</div>
+                            <h2>Premier Pro</h2>
+                            <div class="chart" data-percent="80" >80%</div>
+                            <h2>Html/css</h2>
+                        </div>
+                       
+                </div>
+            </div>
+        </div>
+        
+      </div>
+          </div>
+    </div>
+    
+    <div class="popup" id="popup-2">
+      <div class="popup-content">
+        <hr class="popup-line"> 
+        <div class="top-rectangle"></div>
+        <div class="top-rectangle3"></div>
+        
+        <div class="ppro2"><h1>Motion</h1></div>
+        <span class="close-btn"><img src="img/close.png" alt=""></span>
+        <button class="back-btn2"> <img src="img/arrow.png" alt=""></button>
+        <!-- ... -->
+      
+        
+        
+      </div>
+      <div class="scrollable-content">
+        <div div class="popup-flex2">
+          <div class="popup-text-content1">
+              <button id="learn-more-btn1"><img src="img/think difi.png" alt=""></button>
+              <p class="btn-text">A Day With Apple</p>
+              <p class="btn-texted">01:26</p>
+          </div>
+          <div class="popup-text-content2">
+              <button id="learn-more-btn2"><img src="img/infinity.png" alt=""></button>
+              <p class="btn-text2">Infinite Loop</p>
+              <p class="btn-texted2">01:45</p>
+          </div>
+          <div class="popup-text-content3">
+              <button id="learn-more-btn3"><img src="img/dipration.png" alt=""></button>
+              <p class="btn-text3">Stagnation</p>
+              <p class="btn-texted3">01:18</p>
+          </div>
+          <div class="popup-text-content4">
+              
+              <p class="btn-text4"></p>
+              <p class="btn-texted4"></p>
+          </div>
+          </div>
+      
+        <!-- ... -->
+      
+        <div class="morecon"></div>
+        <div class="more-content1" id="content1">
+            <video src="vid/a-day-with-appe.mp4" controls></video>
+            <p></p>
+            <div class="navigation">
+                <button id="prev-page"><img src="img/Screenshot 2023-11-05 at 21.17.52.png" alt=""></button>
+                <button id="next-page"><img src="img/222.png" alt=""></button>
+            </div>
+        </div>
+        <div class="extracontent" id="content15" style="display: none;">
+            <button id="prev-page-extra"><img src="img/Screenshot 2023-11-05 at 21.17.52.png" alt=""></button>
+            <button id="next-page-extra"><img src="img/222.png" alt=""></button>
+            <div class="container45">
+                <div class="left-section">
+                    <div class="title">A Day with Apple</div>
+                    <div class="image-container">
+                        <img src="img/illulogo.png" alt="이미지1">
+                        <img src="img/aflogo.png" alt="이미지2">
+                    </div>
+                    <div class="subtitle">주제</div>
+                    <div class="line"></div>
+                    <div class="text-content">
+                        <p>애플의 에코시스템이 사용자의 하루 속에서 활용되는 모습을 모션 그래픽 <br>
+                            으로 표현했습니다. 이를 통해 애플이 제공하는 연동성이 사용자의 삶에 <br>
+                            어떻게 자연스럽게 녹아들고 활용될 수 있는지를 시각적으로 전달하며, <br>
+                            소비자들이 애플의 강점을 직관적으로 느낄 수 있도록 했습니다
+                    </div>
+                    <div class="subtitle">스토리</div>
+                    <div class="line"></div>
+                    <div class="text-content">
+                        <p>영상은 아침에 깨어나는 모습으로 시작합니다. 애플 로고가 러닝 트랙으로 전환되고, 이어서 커맨드 <br>
+                            아이콘으로 바뀌어 출근 루틴을 나타내는 네비게이션 길 안내선으로 변합니다. 네비게이션은 다양한 <br>
+                            애플 기기들의 스크린으로 전환되며, 애플페이 결제 과정을 간결하게 시연한 후, 애플 TV 오리지널 <br>
+                            시리즈와 함께 하루가 마무리됩니다. 
+                            
+                    </div>
+                </div>
+                <div class="right-section">
+                    <img class="big-image" src="img/thind.png" alt="큰 이미지">
+                </div>
+            </div>
+        
+        </div>
+        
+        
+        <div class="more-content2" id="content2">
+            <video src="vid/univ.mp4" controls></video>
+            <p></p>
+            <div class="navigation">
+                <button id="prev-page2"><img src="img/Screenshot 2023-11-05 at 21.17.52.png" alt=""></button>
+                <button id="next-page2"><img src="img/222.png" alt=""></button>
+            </div>
+        </div>
+        <div class="extracontent2" id="content25" style="display: none;">
+            <button id="prev-page-extra2"><img src="img/Screenshot 2023-11-05 at 21.17.52.png" alt=""></button>
+            <button id="next-page-extra2"><img src="img/222.png" alt=""></button>
+            <div class="container65">
+                <div class="unleft-section">
+                    <div class="untitle">Infinite Loop</div>
+                    <div class="unsubtitle">키워드</div>
+                    <div class="unline"></div>
+                    <div class="uncircle-container">
+                        <div class="uncircle">시작과 끝</div>
+                        <div class="uncircle">우주</div>
+                        <div class="uncircle">모션그래픽</div>
+                    </div>
+                    <div class="unsubtitle">주제</div>
+                    <div class="unline"></div>
+                    <div class="untext">원은 생명의 순환을 상징합니다. 이 원 안에는 우리의 <br>
+                        삶의 시작과 끝, 탄생과 죽음 같은 순환적인 과정들이 <br>
+                        담겨 있습니다. 이러한 과정을 우주의 탄생, 별의 생성과 <br>
+                        생애 주기와 연결시켜 표현했습니다. </div>
+                </div>
+        
+                <div class="unright-section">
+                   
+                    <img class="unimage1" src="img/aflogo.png" alt="이미지3">
+                    <div class="unsubtitle2">맵핑</div>
+                    <div class="unbottom-line"></div>
+                    <div class="unimage-row">
+                        <img class="unimage" src="img/nu1.png" alt="이미지4">
+                        <img class="unimage" src="img/un2.png" alt="이미지5">
+                        <img class="unimage" src="img/un3.png" alt="이미지6">
+                    </div>
+                    <div class="unsubtitle2">스토리</div>
+                    <div class="unbottom-line"></div>
+                    <div class="untext2">
+                        빅뱅, 우주의 시작후 수소 헬륨 원자가 탄생 합니다. 이런 원소들이 <br>
+                        모여 원시 별이 탄생하고 원시별은 은하를 만듭니다. 별들의 죽음, <br>
+                        초신성 폭팔을 통해 더 무거운 물질들이 탄생하고 이는 곧 우리의 <br>
+                        태양, 지구 태양계를 탄생 시킵니다.
+                    <div class="ununbottom-line"></div>
+                </div>
+            </div>
+        </div>
+       </div>
+
+
+          <div class="more-content3" id="content3">
+            <video src="vid/dif.mp4" controls></video>
+            <p></p>
+            <div class="navigation">
+                <button id="prev-page3"><img src="img/Screenshot 2023-11-05 at 21.17.52.png" alt=""></button>
+                <button id="next-page3"><img src="img/222.png" alt=""></button>
+            </div>
+        </div>
+
+        <div class="extracontent3" id="content35" style="display: none;">
+            <button id="prev-page-extra3"><img src="img/Screenshot 2023-11-05 at 21.17.52.png" alt=""></button>
+            <button id="next-page-extra3"><img src="img/222.png" alt=""></button>
+            <div class="container73">
+                <div class="left-halfer">
+                    <img src="img/csd.jpg" alt="Large Image">
+                </div>
+                <div class="right-halfer">
+                    <div class="boxer">
+                        <h2>Stagnatione</h2>
+                        <p>개인프로젝트</p>
+                        <p>상영시간 : 01:25 2023. 06. 02 - 06. 20</p>
+                        <img src="img/aflogo.png" alt="Image for Box 1">
+                    </div>
+                    <div class="boxer1">
+                        <h2>주제</h2>
+                        <p>우리가 일상 속에서 경험하는 흔한 부정적 감정, 특히 우울감을 주제로, 그 감정의 흐름을 <br>
+                            다양한 상징을 통해 표현했습니다. 이러한 접근을 통해 우울감이라는 감정을 깊이 <br>
+                            있게 탐구하며, 그 본질과 영향을 보다 섬세하게 이해할 수 있도록 돕고자 했습니다
+                        </p>
+                        
+                    </div>
+                    <div class="boxer2">
+                        <h2>스토리</h2>
+                        <p>  비오는 배경 속 건물이 물에 잠겨 무너지는 영상에서, 한 남자가 우울감을 <br>
+                             이기려고노력하는 이야기를 다룹니다. 남자는 탈출을 시도하지만 어려움을 겪고,  <br>
+                             결국 우울함을 느끼며 여러 번의 시도를 합니다. 마침내 벽이 무너지고, 남자는 <br>
+                             새로운 시작을 향한 희망을 찾게 됩니다..</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      
+          
+          <div class="more-content4" id="content4">
+            <button class="back-btn2"><img src="img/arrow.png" alt=""></button>
+            <video src="vid/a-day-with-appe.mp4" controls></video>
+            <p></p>
+        </div>
+      
+     </div>
+    </div>
+
+
+    
+    
+    <div class="popup" id="popup-3">
+        <div class="popup-content">
+            <hr class="popup-line"> 
+            <div class="top-rectangle2"></div>
+            <div class="top-rectangle2"></div>
+            <div class="top-rectangle3"></div>
+            
+            <div class="ppro"><h1>Publicsh</h1></div>
+            <span class="close-btn"> <img src="img/close.png" alt=""></span>
+            <button class="back-btn3"> <img src="img/arrow.png" alt=""></button>
+            <!-- ... -->
+            
+        
+          </div>
+          <div class="scrollable-content">
+            <div class="popup-flex3">
+              <div class="popup-text-content5">
+                  <button id="learn-more-btn5"><img src="img/chalea.png" alt=""></button>
+                  <p class="btn-text10">차례</p>
+              </div>
+              <div class="popup-text-content6">
+                  <button id="learn-more-btn6"><img src="img/insidetill.png" alt=""></button>
+                  <p class="btn-text11">Inside Till Outside</p>
+              </div>
+              <div class="popup-text-content7">
+                  <button id="learn-more-btn7"><img src="img/drugs.png" alt=""></button>
+                  <p class="btn-text12">인터넷 중독</p>
+              </div>
+              <div class="popup-text-content8">
+                  <button id="learn-more-btn8"><img src="img/ocean.png" alt=""></button>
+                  <p class="btn-text13">해양안전</p>
+              </div>
+          </div>
+          
+          <!-- ... -->
+          
+              
+               <div div class="more-content5" id="content5">
+                
+                <div id="book-viewer">
+                    <div id="pages">
+                        <div class="page">
+                            <img class="nobnon" src="img2/_page-0001.jpg" alt="페이지 1">
+                        </div>
+                        <div class="page">
+                            <img class="nobnob" src="img2/_page-0002.jpg" alt="페이지 2">
+                        </div>
+                        <div class="page">
+                            <img class="nobnob" src="img2/_page-0003.jpg" alt="페이지 3">
+                        </div>
+                        <div class="page">
+                            <img class="nobnob" src="img2/_page-0004.jpg" alt="페이지 4">
+                        </div>
+                        <div class="page">
+                            <img class="nobnob" src="img2/_page-0005.jpg" alt="페이지 5">
+                        </div>
+                        <div class="page">
+                            <img class="nobnob" src="img2/_page-0006.jpg" alt="페이지 6">
+                        </div>
+                        <div class="page">
+                            <img class="nobnob" src="img2/_page-0007.jpg" alt="페이지 7">
+                        </div>
+                        <div class="page">
+                            <img class="nobnon" src="img2/_page-0008.jpg" alt="페이지 8">
+                        </div>
+                    </div>
+                    </div>
+                    <div id="B-prev-page" onclick="prevPage()"><img src="img/Screenshot 2023-11-05 at 21.17.52.png" alt=""></div>
+                    <div id="B-next-page" onclick="nextPage()"><img src="img/222.png" alt=""></div>
+                    <div id="progress-bar">
+                        <div id="progress"></div>
+                    
+                    
+                    
+    
+                   
+                
+                
+                
+              </div>
+              <div class="sia-popup-trigger"> <!-- 변경 -->
+                <img src="img/learnmoreicon.png" alt="Popup Image" width="50" height="50">
+            </div>
+            <div class="siapopup" id="siapopup"> <!-- 변경 -->
+                <div class="siapopup-content"> <!-- 변경 -->
+                    <img src="img/chalet.png" alt="">
+                    <!-- 닫기 버튼 -->
+                    <span class="close-btn-sia" onclick="closePopup()"><img src="img/close.png" alt=""></span> <!-- 변경 -->
+                </div>
+            </div>
+              
+            </div>
+    
+              
+    
+              <div class="more-content6" id="content6">
+                <p></p>
+                <div id="book-viewer2">
+                    <div id="pages2">
+                        <div class="page2">
+                            <img class="nobnon2" src="img3/1_page-0001.jpg" alt="페이지 9">
+                        </div>
+                        <div class="page2">
+                            <img class="nobnob2" src="img3/1_page-0002.jpg" alt="페이지 10">
+                        </div>
+                        <div class="page2">
+                            <img class="nobnob2" src="img3/1_page-0003.jpg" alt="페이지 11">
+                        </div>
+                        <div class="page2">
+                            <img class="nobnob2" src="img3/1_page-0004.jpg" alt="페이지 12">
+                        </div>
+                        <div class="page2">
+                            <img class="nobnob2" src="img3/1_page-0005.jpg" alt="페이지 13">
+                        </div>
+                        <div class="page2">
+                            <img class="nobnob2" src="img3/1_page-0006.jpg" alt="페이지 14">
+                        </div>
+                        <div class="page2">
+                            <img class="nobnob2" src="img3/1_page-0007.jpg" alt="페이지 15">
+                        </div>
+                        <div class="page2">
+                            <img class="nobnob2" src="img3/1_page-0008.jpg" alt="페이지 16">
+                        </div>
+                        <div class="page2">
+                            <img class="nobnob2" src="img3/1_page-0009.jpg" alt="페이지 16">
+                        </div>
+                        <div class="page2">
+                            <img class="nobnob2" src="img3/1_page-0010.jpg" alt="페이지 16">
+                        </div>
+                        <div class="page2">
+                            <img class="nobnob2" src="img3/1_page-0011.jpg" alt="페이지 16">
+                        </div>
+                        <div class="page2">
+                            <img class="nobnob2" src="img3/1_page-0012.jpg" alt="페이지 16">
+                        </div>
+                        <div class="page2">
+                            <img class="nobnob2" src="img3/1_page-0013.jpg" alt="페이지 16">
+                        </div>
+                        <div class="page2">
+                            <img class="nobnon2" src="img3/1_page-0014.jpg" alt="페이지 16">
+                        </div>
+                    
+                    </div>
+                    <div id="B-prev-page2" onclick="prevPage2()"><img src="img/Screenshot 2023-11-05 at 21.17.52.png" alt=""></div>
+                    <div id="B-next-page2" onclick="nextPage2()"><img src="img/222.png" alt=""></div>
+                    <div id="progress-bar2">
+                        <div id="progress2"></div>
+                    </div>
+                    <div class="tea-popup-trigger">
+                        <img src="img/learnmoreicon.png" alt="Popup Image" width="50" height="50"></div>
+                        <div class="teapopup" id="teapopup">
+                            <div class="teapopup-content">
+                                <img src="img/insideout.png" alt="">
+                                
+                                <!-- 닫기 버튼 -->
+                                <span class="close-btn-tea" onclick="closePopup()"><img src="img/close.png" alt=""></span>
+                            </div>
+              </div>
+              </div>
+                
+                
+             
+              
+          </div>
+          <div class="more-content7" id="content7">
+            <div class="header">
+                <div class="title"><h1>인터넷 중독 일상을 파괴하는 마약</h1></div>
+                <div class="subtitle"><p>2인 프로젝트 (김중원, 나재현) 2023 03 20 ~ 2023 5 10</p></div>
+                <div class="top-right-image"><img src="img/photoshoplogo.png" alt=""></div>
+            </div>
+    
+            <div class="main-content">
+                <div class="large-image">
+                    <img src="img/Phone-addiction.jpg" alt="Large Image">
+                </div>
+    
+                <div class="boxere">
+                    <div class="horizontal-boxes">
+                        <div class="drug-box">
+                            <h1 class="drug-title">키워드</h1>
+                            <div class="drug-box-line"></div>
+        
+                            <div class="circle-container">
+                                <div class="drug-circle">
+                                    <p class="drug-dubletext">인터넷 <br> 중독</p>
+                                </div>
+                                <div class="drug-circle">
+                                    <div class="drug-text">마약</div>
+                                </div>
+                                <div class="drug-circle">
+                                    <div class="drug-text">마약</div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="text-box">
+                            <h1 class="drug-title">주제</h1>
+                            <div class="text-box-line"></div>
+                            <h1 class="text-content">
+                                인터넷은 인류에게 전례 없는 문명 발전을 이루게 했지만, 현대
+                                사회에서는 인터넷 중독 문제가 여전히 해결되지 않은 중대한 
+                                과제로 남아 있습니다. 이 포스터는 인터넷 중독 문제를 더 깊이
+                                탐구하며, 그 심각성을 명확히 드러내고자 했습니다.</h1>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+            <div class="more-content8" id="content8">
+          
+                <div class="ocean-left-box">
+                    <div class="rotatetext">
+                        <h1>해양 안전 공익광고</h1>
+                    <h2>개인프로젝트 2023 05 10 ~ 2023 06 12</h2>
+                    </div>
+                </div>
+            
+                <img class="ocean-bottom-image" src="img/bottom-image.jpg" alt="Bottom Image">
+            
+                <div class="ocean-right-top">
+                    
+                    <div class="ocean-image-container">
+                        <img src="img/ocean1.png" alt="Right Image 1">
+                        <div class="ocean-box"></div>
+                        <div class="ocean-box"></div>
+                    </div>
+                    <div class="ocean-image-container2">
+                        <img src="img/ocean2.png" alt="Right Image 2">
+                        <div class="ocean-box"></div>
+                        <div class="ocean-box"></div>
+                    </div>
+                </div>
+            
+                <div class="ocean-circle-container">
+                    
+                    <div class="ocean-circle">
+                        <div class="ocean-text-in-circle"><p>이안류</p></div>
+                    </div>
+                    <div class="ocean-circle">
+                        <div class="ocean-text-in-circle"><p>위혐성</p></div>
+                    </div>
+                    <div class="ocean-circle">
+                        <div class="ocean-text-in-circle"><p>예방</p></div>
+                    </div>
+                </div>
+            
+                <div class="ocean-side-content">
+                    <h3>주제</h3>
+                    <p>
+                       이안류는 육안에 잘 표시되지 않아 "바다의 <br>
+                       암살자"라 불립니다. 첫번째 포스터에는 이런점을 <br>
+                       착안하여 이안류에 대한 위험성을 예방 부서진 <br>
+                       다리를 통해 나타냈으며 두번째 포스터에서 <br>
+                       예보시스템을 통해 예방에 중요성을 강조했습니다.
+                    </p>
+                </div>
+                </div>
+        
+        </div>
+        
+    </div>
+      
+    <div class="popup" id="popup-4">
+        <div class="popup-content">
+            <hr class="popup-line"> 
+            <div class="top-rectangle"></div>
+            <div class="top-rectangle2"></div>
+            <div class="top-rectangle3"></div>
+            
+            <div class="ppro"><h1>Graphic</h1></div>
+            <span class="close-btn"><img src="img/close.png" alt=""></span>
+            <button class="back-btn4"> <img src="img/arrow.png" alt=""></button>
+    
+            <!-- ... -->
+           
+        
+            
+          </div>
+          <div class="scrollable-content">
+            <div class="popup-flex4">
+              <div class="popup-text-content21">
+                  <button id="learn-more-btn21"><img src="img/OWLOUTO.png" alt=""></button>
+                  <p class="btn-text20">올뺌이 오토</p>
+              </div>
+  
+              <div class="popup-text-content22">
+                  <button id="learn-more-btn22"><img src="img/HEACHOT.png" alt=""></button>
+                  <p class="btn-text21">혜초여행</p>
+              </div>
+              <div class="popup-text-content23">
+                  
+              </div>
+              <div class="popup-text-content24">
+                  
+              </div>
+          </div>
+          
+          <!-- ... -->
+          
+              <div class="morecon3">
+                </div>
+                <div class="more-content21" id="content21">
+           
+                      <img src="vid/ezgif.com-video-to-gif-converter.gif" alt="Animated Image">
+                      
+                      <div class="owl-container">
+                          <div class="owl-title-container">
+                              <div class="owl-title">Bewere The Curious Owl</div>
+                              <div class="owl-title2">개인프로젝트 : 2023. 03. 10 - 06. 05</div>
+                          </div>
+                          
+  
+                          <div class="owl-text">
+                            
+                              이 작품은 올빼미의 귀여운 특징과 맹금류적인 위엄을 결합하여 제작되었습니다. 
+                              올빼미의 독특한 외모와 행동을 간결하게 표현하면서도, 날카로운 눈빛으로 
+                              맹금류의 위협성을 강조했습니다. </div>
+                          <div class="owl-circle-container">
+                              <div class="owl-circle">
+                                  <div class="circle-text">대비되는</div>
+                                  
+                              </div>
+                              <div class="owl-circle">
+                                  <div class="circle-text">미스테리</div>
+                              </div>
+                              <div class="owl-circle">
+                                  <div class="circle-text">풍요로움</div> 
+                              </div>
+                              
+                              
+                          </div>
+                          <div class="owl-img">
+                              <img src="img/illulogo.png" alt="Image 1">
+                          </div>
+                      </div>
+                      <div class="addimg-container">
+                          <div class="addimg-box1" onclick="openPopup('image1.jpg')"><img src="img/owlpart1.png" alt=""></div>
+                          <div class="addimg-box2" onclick="openPopup('image2.jpg')"><img src="img/owlpart2.png" alt=""></div>
+                          <div class="addimg-box3" onclick="openPopup('image3.jpg')"><img src="img/owlpart3.png" alt=""></div>
+                          <div class="addimg-box4" onclick="openPopup('image4.jpg')"><img src="img/owlpart4.png" alt=""></div>
+                      </div>
+                      </div>
+                      <!-- Popup container -->
+                      <div class="owlitems-popup" id="owl-popup1">
+                          <div class="owlitems-popup-content">
+                              <span class="owlitems-close" onclick="closePopup('owl-popup1')">&times;</span>
+                              <div class="main-image">
+                                  <img id="owl-popup-img1" src="img/owlpart1.png" alt="Popup Image 1">
+                              </div>
+                              <div class="thumbnail-container">
+                                  <img class="thumbnail" src="img/owlpart1.png" alt="" onclick="changeImage('owl-popup-img1', 'img/owlpart1.png')">
+                                  <img class="thumbnail" src="img/owlpart2.png" alt="" onclick="changeImage('owl-popup-img1', 'img/owlpart2.png')">
+                                  <img class="thumbnail" src="img/owlpart3.png" alt="" onclick="changeImage('owl-popup-img1', 'img/owlpart3.png')">
+                                  <img class="thumbnail" src="img/owlpart4.png" alt="" onclick="changeImage('owl-popup-img1', 'img/owlpart4.png')">
+                              </div>
+                          </div>
+                      </div>
+                  
+                      <div class="owlitems-popup" id="owl-popup2">
+                          <div class="owlitems-popup-content">
+                              <span class="owlitems-close" onclick="closePopup('owl-popup2')">&times;</span>
+                              <div class="main-image">
+                                  <img id="owl-popup-img2" src="img/owlpart2.png" alt="Popup Image 2">
+                              </div>
+                              <div class="thumbnail-container">
+                                  <img class="thumbnail" src="img/owlpart2.png" alt="" onclick="changeImage('owl-popup-img2', 'img/owlpart1.png')">
+                                  <img class="thumbnail" src="img/owlpart1.png" alt="" onclick="changeImage('owl-popup-img2', 'img/owlpart2.png')">
+                                  <img class="thumbnail" src="img/owlpart3.png" alt="" onclick="changeImage('owl-popup-img2', 'img/owlpart3.png')">
+                                  <img class="thumbnail" src="img/owlpart4.png" alt="" onclick="changeImage('owl-popup-img2', 'img/owlpart4.png')">
+                              </div>
+                          </div>
+                      </div>
+                  
+                      <div class="owlitems-popup" id="owl-popup3">
+                          <div class="owlitems-popup-content">
+                              <span class="owlitems-close" onclick="closePopup('owl-popup3')">&times;</span>
+                              <div class="main-image">
+                                  <img id="owl-popup-img3" src="img/owlpart3.png" alt="Popup Image 3">
+                              </div>
+                              <div class="thumbnail-container">
+                                  <img class="thumbnail" src="img/owlpart3.png" alt="" onclick="changeImage('owl-popup-img3', 'img/owlpart1.png')">
+                                  <img class="thumbnail" src="img/owlpart1.png" alt="" onclick="changeImage('owl-popup-img3', 'img/owlpart2.png')">
+                                  <img class="thumbnail" src="img/owlpart3.png" alt="" onclick="changeImage('owl-popup-img3', 'img/owlpart3.png')">
+                                  <img class="thumbnail" src="img/owlpart4.png" alt="" onclick="changeImage('owl-popup-img3', 'img/owlpart4.png')">
+                              </div>
+                          </div>
+                      </div>
+                  
+                      <div class="owlitems-popup" id="owl-popup4">
+                          <div class="owlitems-popup-content">
+                              <span class="owlitems-close" onclick="closePopup('owl-popup4')">&times;</span>
+                              <div class="main-image">
+                                  <img id="owl-popup-img4" src="img/owlpart4.png" alt="Popup Image 4">
+                              </div>
+                              <div class="thumbnail-container">
+                                  <img class="thumbnail" src="img/owlpart4.png" alt="" onclick="changeImage('owl-popup-img4', 'img/owlpart1.png')">
+                                  <img class="thumbnail" src="img/owlpart2.png" alt="" onclick="changeImage('owl-popup-img4', 'img/owlpart2.png')">
+                                  <img class="thumbnail" src="img/owlpart3.png" alt="" onclick="changeImage('owl-popup-img4', 'img/owlpart3.png')">
+                                  <img class="thumbnail" src="img/owlpart4.png" alt="" onclick="changeImage('owl-popup-img4', 'img/owlpart4.png')">
+                              </div>
+                          </div>
+                      </div>
+                          
+                          
+              <div class="more-content22" id="content22">
+                 
+                  <div id="overlay-container">
+                      <video id="heacho-overlay-img" autoplay muted alt="Overlay Image">
+                          <source src="vid/njjjnnjn.mov" type="video/mp4">
+                         
+                      </video>
+                     
+                      
+                  </div>
+                
+                      <div id="heacho-container">
+                          <div class="heacho-top-section">
+                           
+                              <img class="topsec1" src="img/heachologo.png" alt="">
+                              <img class="topsec2" src="img/illulogo.png" alt="">
+                              <img class="topsec3" src="img/photoshoplogo.png" alt="">
+                            
+                            <div class="text-con">
+                              <h3>주제</h3>
+                              <p>
+        
+                                  혜초 여행은 혜초 스님이 저술한 《왕오천축국전》의 모험가적 정신을 <br>
+                                  기반으로 한 아웃도어 액티비티 전문 여행사입니다. 기업 로고는  <br>
+                                  이 모토를 반영하여 디자인되었으며, 고객들에게는 모험과 도전의 <br>
+                                  가치를 전달하며, 새로운 경험을 제공하는 것을 목표로 합니다.
+                            </div>
+                          
+                          </div>
+                          
+                          <div class="heacho-middle-section">
+                              <h3>
+                               개인 프로젝트 : 2023. 03. 12 - 2023. 06. 20</h3>
+                           </div>
+                          
+                          
+                          <div class="heacho-bottom-section">
+                            <div class="heacho-bottom-section1">
+                              <div class="heacho-box1">
+                                <div class="heacho-box-text1"><h3>등산을 하는 <br> 두사람</h3></div>
+                                <div class="heacho-box-text1-2">
+                                  등산은 주로 등산을 중점으로 <br> 
+                                  하는 여행사의 활동을 대표합니다. <br>
+                                  로고에 등산하는 두 남성은 공동체와 <br>
+                                   협력, 연대를 상징합니다</div>
+                               
+                              </div>
+                              
+                              <div class="heacho-box-image1">
+                                  <img src="heachoimg/twomancli.png" alt="Image 1">
+                                </div>
+                            </div>
+  
+                            <div class="heacho-bottom-section2">
+                              <div class="heacho-box2">
+                                  <div class="heacho-box-text2"><h3>동그란 원</h3></div>
+                                  <div class="heacho-box-text2-2">
+                                    뒤로 떠오르는 태양의 모습은 도전 <br> 으로 인한 새로운 시작과 목표를 <br> 상징합니
+                                  </div>
+                               
+                              </div>
+                              
+                              <div class="heacho-box-image2">
+                                  <img src="heachoimg/risingsun.png" alt="Image 2">
+                                </div>
+                            </div>
+                            
+                                
+                             
+  
+                            <div class="heacho-bottom-section3">
+                              <div class="heacho-box3">
+                                <div class="heacho-box-text3"><h3>폰트</h3></div>
+                                <div class="heacho-box-text3-2">
+                                  폰트는 엑티비티와 역동성을 강조 <br> 
+                                  하기 위해 굴곡을 많이 활용했습니다. <br>
+                                   이로써 활동적이며 에너지 넘치는 <br> 
+                                   느낌을 전달합니다</ㅇ>
+                               
+                              </div>
+                             
+                            </div>
+                            <div class="heacho-box-image3">
+                              <img src="heachoimg/heachole.png" alt="Image 3">
+                             </div>
+                          </div>
+                        </div>
+                      </div>
+           <div class="more-content23" id="content23">
+                <button class="back-btn4">←</button>
+                <p>Content for Image 3</p>
+              </div>
+              <div class="more-content24" id="content24">
+                <button class="back-btn4">←</button>
+                <p>Content for Image 4</p>
+            </div>
+          </div>
+        </div>
+    </div>
+        
+      
+      
+  
+   
+        
+    
+    <div class="popup" id="popup-5">
+      <div class="popup-content">
+        <hr class="popup-line"> 
+        <div class="top-rectangle"></div>
+        <div class="top-rectangle2"></div>
+        <div class="top-rectangle3"></div>
+        
+        <div class="ppro"><h1>Website</h1></div>
+        <span class="close-btn"> <img src="img/close.png" alt=""></span>
+        <button class="back-btn5"> <img src="img/arrow.png" alt=""></button>
+        <!-- ... -->
+        
+    
+      </div>
+      <div class="scrollable-content">
+        <div class="popup-flex5">
+          <div class="popup-text-content31">
+              <button id="learn-more-btn31"><img src="img/ocll.png" alt=""></button>
+              <p class="btn-text30">오설록</p>
+          </div>
+          <div class="popup-text-content32">
+              <button id="learn-more-btn32"><img src="img/geaoungi.png" alt=""></button>
+              <p class="btn-text31">경기미술관</p>
+          </div>
+          <div class="popup-text-content33">
+              <button id="learn-more-btn33"><img src="img/bose.png" alt=""></button>
+              <p class="btn-text32">Bose</p>
+          </div>
+          <div class="popup-text-content34">
+            <button id="learn-more-btn33"></button>
+              <p class="btn-text33"></p>
+          </div>
+      </div>
+      
+      <!-- ... -->
+      
+      <div class="morecon4"></div>
+      <div div class="more-content31" id="content31">
+ 
+          <div class="Sulloc-header">
+              <div class="Sulloc-Ttitle"><h1>오설록 사이트 리뉴얼</h1></div>
+              <div class="Sulloc-subtitle"><p>개인 프로젝트 : 2022. 09. 10 - 2022.10. 01</p></div>
+              <div class="Sulloc-top-right-image"><img src="img/illulogo.png" alt=""></div>
+              <div class="Sulloc-top-right-image2"><img src="img/photoshoplogo.png" alt=""></div>
+          </div>
+          <div class="Sulloc-boxere">
+              <div class="Sulloc-horizontal-boxes">
+                  <div class="Sulloc-box">
+                      <h1 class="Sulloc-title">키워드</h1>
+                      <div class="Sulloc-box-line"></div>
+          
+                      <div class="Sulloc-circle-container">
+                          <div class="Sulloc-circle">
+                              <p class="Sulloc-dubletext">우리 정통  <br> 차 문화</p>
+                          </div>
+                          <div class="Sulloc-circle">
+                              <div class="Sulloc-dubletext">차 음식 <br> 페어링</div>
+                          </div>
+                          <div class="Sulloc-circle">
+                              <div class="Sulloc-text">마음챙김</div>
+                          </div>
+                      </div>
+                  </div>
+          
+                  <div class="Sulloc-text-box">
+                      <h1 class="Sulloc-title">주제</h1>
+                      <div class="Sulloc-text-box-line"></div>
+                      <p class="Sulloc-text-content">
+                        오설록 사이트를 소비자의 관점에서 사용한 경험을 <br>
+                         공유하며, 현 사이트를 개선하고자 하는 의지를 <br>
+                          반영했습니다. 사이트의 강점을 강조하고 <br>
+                        필요한 개선점을 제시하여 사용자 경험 향상을 <br>
+                         목표로 하였습니다.</p>
+                  </div>
+              </div>
+              
+          
+          </div>
+          <div class="Sulloc-magnifier-main">
+                        <div class="Sulloc-box1">
+                            <div class="Sulloc-box1-con1">
+                                <hr class="Sulloc-popup-line"> 
+                                <div class="Sulloc-top-rectangle"></div>
+                                <div class="Sulloc-top-rectangle3"></div>
+                                <div class="Sulloc-ppro"><h1>개인 프로필</h1></div>
+                            </div>
+                        </div>
+                        <div class="Sulloc-buttons">
+                            <button class="Sulloc-button1" onclick="showImage(1)"><h1>메인 페이지</h1></button>
+                            <button class="Sulloc-button2" onclick="showImage(2)"><h1>서브 페이지</h1></button>
+                        </div>  
+                        <div class="Sulloc-magnifier-container">
+                            <div class="Sulloc-magnifier" id="Sulloc-magnifier"></div>
+                        </div>
+                    </div>
+                    <div class="Sulloc-image-container" id="Sulloc-imageContainer1">
+                        <img src="img/teamain.jpg" alt="긴 이미지 1">
+                        <div class="Sulloc-selection-box" id="Sulloc-selectionBox1"></div>
+                    </div>
+                    <div class="Sulloc-image-container" id="Sulloc-imageContainer2" style="display:none;">
+                        <img src="img/Osub.jpg" alt="긴 이미지 2">
+                        <div class="Sulloc-selection-box" id="Sulloc-selectionBox2"></div>
+                    </div>
+     
+                 </div>
+          <div class="more-content32" id="content32">
+            <div class="gartm-header">
+                <div class="gartm-Ttitle"><h1>경기도 미술관 사이트 리뉴얼</h1></div>
+                <div class="gartm-subtitle"><p>개인 프로젝트 2022. 10. 22 - 11. 20</p></div>
+                <div class="gartm-top-right-image"><img src="img/illulogo.png" alt=""></div>
+                <div class="gartm-top-right-image2"><img src="img/photoshoplogo.png" alt=""></div>
+            </div>
+            <div class="gartm-boxere">
+                <div class="gartm-horizontal-boxes">
+                    <div class="gartm-box">
+                        <h1 class="gartm-title">키워드</h1>
+                        <div class="gartm-box-line"></div>
+            
+                        <div class="gartm-circle-container">
+                            <div class="gartm-circle">
+                                <p class="gartm-dubletext">문화 활동 <br> 미술교육</p>
+                            </div>
+                            <div class="gartm-circle">
+                                <div class="gartm-dubletext"> <p>무료전시 <br> 이벤트</p> </div>
+                            </div>
+                            <div class="gartm-circle">
+                                <div class="gartm-text">전시일정</div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="gartm-text-box">
+                        <h1 class="gartm-title">주제</h1>
+                        <div class="gartm-text-box-line"></div>
+                        <p class="gartm-text-content">
+                            주로 무료 전시에 중점을 둔 국립 미술관으로, 최대한 <br>
+                             불필요한 요소는 제외하고 현재 전시 진행상황과 전시관련 <br>
+                              정보를 사용자에게 하여금 직관적으로 전달하도록 사이트를 <br>
+                               구성했습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="gartm-container">
+                <div class="gartm-box gartm-large-box hover-effect" id="gartm-box1">
+                    <img src="art/grmain.jpg" alt="Image 1">
+                </div>
+                <div class="gartm-box gartm-small-box hover-effect" id="gartm-box2">
+                    <img src="art/sub.jpg" alt="Image 2">
+                </div>
+            </div>
+          </div>
+          <div class="more-content33" id="content33">
+            <div class="bose-main">
+                <div class="bose-box2-container">
+                    <div class="bose-search">
+                        <div class="url-box">
+                            <div class="bose-back">
+                                <img src="img/bose-reload.png" alt="">
+                                
+                                <p>https://www.bose.co.kr</p>
+                            </div>
+                            <div class="bose-url">
+                                <img src="img/bose-arrow.png" alt="">
+                            </div>
+                        </div>
+                        <div class="search-box">
+                            <div class="bose-more-search">
+                                <img src="img/bose-magnefi.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bose-container">
+                        <img src="img/bosehome.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        
+            <div class="bose-text-container">
+                <div class="bose-text-title">
+                    <h1>보스 웹사이트 <br> 리뉴얼</h1>
+                </div>
+                <div class="bose-text-subtitle">
+                    <h1>개인 프로젝트 : 2023. 10. 15 - 2022. 10. 25</h1>
+                </div>
+                <div class="bose-smallimg">
+                    <div class="bose-photologo">
+                        <img src="img/photoshoplogo.png" alt="">
+                    </div>
+                    <div class="bose-ilerlogo">
+                        <img src="img/illulogo.png" alt="">
+                    </div>
+                    
+                </div>
+                
+                <div class="bose-textbox">
+                    <div class="bose-textbox-title">
+                        <h1>키워드</h1>
+                    </div>
+                    <div class="bose-tbox">
+                        <p>전문적 사운드</p>
+                    </div>
+                    <div class="bose-tbox">
+                        <p>음향 장비</p>
+                    </div>
+                    <div class="bose-tbox">
+                        <p>상풍 설명 및 구매</p>
+                    </div>
+                    <div class="bose-subj">
+                        <h1>주제</h1>
+                        <p>보스는 노이즈 캔슬링 기술을 대중화 시킨 <br>
+                           선두적인 기업으로 알려져 있지만,<br>
+                           한국에서는 수입대행업자를 통해 판매가 <br>
+                           이루워저 제대로된 웹사이트를 기대하기 <br>
+                           어려웠습니다. 이 문제를 해결하기 위해<br>
+                            새로운 웹사이트를 구축하였습니다.
+                    </div>
+                </div>
+                
+            </div>
+          </div>
+          <div class="more-content34" id="content34">
+           
+            <p>Content for Image 4</p>
+        </div>
+          
+      </div>
+    </div>
+    </div>
+    
+    
+      
+    
+      <script>
+        const text = "Welcome to My Portfolio";
+        const typingText = document.getElementById("typing-text");
+        const cursor = document.getElementById("cursor");
+        const image = document.getElementById("image");
+        let charIndex = 0;
+    
+        function typeText() {
+          typingText.textContent += text[charIndex];
+          charIndex++;
+          if (charIndex < text.length) {
+            setTimeout(typeText, 100);
+          } else {
+            // 모든 텍스트가 작성되면 애니메이션 시작
+            setTimeout(animateText, 1000); // 1초 후에 텍스트 애니메이션 시작
+          }
+        }
+    
+        function animateText() {
+          // 텍스트를 위로 올림
+          typingText.style.transform = "translateY(-100px)";
+          cursor.style.transform = "translateY(-100px)";
+    
+          // 커서를 숨김
+          cursor.style.opacity = 0;
+    
+          // 정사각형 애니메이션 시작
+          const squares = document.querySelectorAll(".square");
+          squares.forEach((square, index) => {
+            setTimeout(() => {
+              // 색상 변경
+              square.style.backgroundColor = "#fofofo";
+              // 왼쪽에서 오른쪽으로 나타남
+              square.style.transform = "scaleX(1)";
+              // 크기 변경
+              square.style.width = "100px";
+              square.style.height = "100px";
+            }, index * 100); // 0.1초 간격으로 실행
+          });
+    
+        
+    
+          
+    
+          // 이미지 애니메이션 시작
+          setTimeout(() => {
+            image.style.top = "-170px"; // 이미지를 100px 위로 이동
+          }, -100); // 5초 후에 이미지 애니메이션 시작
+    
+          
+        }
+    
+    
+    
+        typeText();
+      </script>
+    
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+        const announcement = document.querySelector('.announcement');
+        announcement.style.bottom = '-354px'; /* 3초 후에 bottom 값을 변경 */
+    }, 3000); // 3초 후에 실행
+    });
+    
+    // 팝업 열기 이벤트
+    const squares = document.querySelectorAll(".square");
+    squares.forEach(square => {
+        square.addEventListener("click", function() {
+            const popupId = this.getAttribute("data-popup-target");
+            const popup = document.getElementById(popupId);
+            if (popup) {
+                popup.style.display = "block";
+            }
+        });
+    });
+    
+    // 팝업 닫기 이벤트
+    const closeButtons = document.querySelectorAll(".close-btn");
+    closeButtons.forEach(button => {
+        button.addEventListener("click", function() {
+            const popup = this.closest(".popup");
+            if (popup) {
+                popup.style.display = "none";
+            }
+        });
+    });
+    
+    const learnMoreBtn = document.getElementById("learned-more-btn");
+
+learnMoreBtn.addEventListener("click", function () {
+    document.querySelector("#popup-1 .popup-flex").style.display = "none";
+    document.querySelector(".more-content").style.display = "block";
+    learnMoreBtn.style.display = "none"; // 더 알아보기 버튼을 숨김
+});
+
+document.getElementById("back-btn").addEventListener("click", function () {
+    document.querySelector(".more-content").style.display = "none";
+    document.querySelector("#popup-1 .popup-flex").style.display = "flex";
+    learnMoreBtn.style.display = "block"; // 다시 더 알아보기 버튼을 보이게 함
+});
+    
+    //팝업2
+    
+    const btns1 = document.querySelectorAll("[id^='learn-more-btn1']");
+    const btns2 = document.querySelectorAll("[id^='learn-more-btn2']");
+    const btns3 = document.querySelectorAll("[id^='learn-more-btn3']");
+    const btns4 = document.querySelectorAll("[id^='learn-more-btn4']");
+    
+    const popupFlex2 = document.querySelector(".popup-flex2");
+    const contents1 = document.querySelectorAll(".more-content1");
+    const contents2 = document.querySelectorAll(".more-content2");
+    const contents3 = document.querySelectorAll(".more-content3");
+    const contents4 = document.querySelectorAll(".more-content4");
+    const backBtns = document.querySelectorAll(".back-btn2");
+    const extraContent = document.getElementById("content15");
+    const extraContent2 = document.getElementById("content25");
+    const extraContent3 = document.getElementById("content35");
+    
+    // 모든 more-content를 숨깁니다.
+    const hideAllContents = () => {
+        [contents1, contents2, contents3, contents4].forEach(contents => {
+            contents.forEach(content => {
+                content.style.display = "none";
+            });
+        });
+    }
+    
+    btns1.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents();
+            popupFlex2.style.display = "none";
+            contents1[index].style.display = "block";
+        });
+    });
+    
+    btns2.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents();
+            popupFlex2.style.display = "none";
+            contents2[index].style.display = "block";
+        });
+    });
+    
+    btns3.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents();
+            popupFlex2.style.display = "none";
+            contents3[index].style.display = "block";
+        });
+    });
+    
+    btns4.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents();
+            popupFlex2.style.display = "none";
+            contents4[index].style.display = "block";
+        });
+    });
+    
+    backBtns.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents();
+            popupFlex2.style.display = "flex";
+        });
+    });
+    
+    
+    backBtns.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents();
+            popupFlex2.style.display = "flex";
+            extraContent.style.display = "none"; 
+            extraContent2.style.display = "none"; 
+            extraContent3.style.display = "none"; 
+        });
+    });
+    
+    //팝업3
+    
+    const btns5 = document.querySelectorAll("[id^='learn-more-btn5']");
+    const btns6 = document.querySelectorAll("[id^='learn-more-btn6']");
+    const btns7 = document.querySelectorAll("[id^='learn-more-btn7']");
+    const btns8 = document.querySelectorAll("[id^='learn-more-btn8']");
+    
+    const popupFlex3 = document.querySelector(".popup-flex3");
+    const contents5 = document.querySelectorAll(".more-content5");
+    const contents6 = document.querySelectorAll(".more-content6");
+    const contents7 = document.querySelectorAll(".more-content7");
+    const contents8 = document.querySelectorAll(".more-content8");
+    const backBtns2 = document.querySelectorAll(".back-btn3");
+    
+    const hideAllContents2 = () => {
+        [contents5, contents6, contents7, contents8].forEach(contents => {
+            contents.forEach(content => {
+                content.style.display = "none";
+            });
+        });
+    }
+    
+    btns5.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents2();
+            popupFlex3.style.display = "none";
+            contents5[index].style.display = "block";
+        });
+    });
+    
+    btns6.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents2();
+            popupFlex3.style.display = "none";
+            contents6[index].style.display = "block";
+        });
+    });
+    
+    btns7.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents2();
+            popupFlex3.style.display = "none";
+            contents7[index].style.display = "block";
+        });
+    });
+    
+    btns8.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents2();
+            popupFlex3.style.display = "none";
+            contents8[index].style.display = "block";
+        });
+    });
+    
+    backBtns2.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents2();
+            popupFlex3.style.display = "flex";
+        });
+    });
+    
+    // 페이지 로딩 시 more-content를 모두 숨김
+     
+    
+    backBtns.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            if(contents5[index]) contents5[index].style.display = "none";
+            if(contents6[index]) contents6[index].style.display = "none";
+            if(contents7[index]) contents7[index].style.display = "none";
+            if(contents8[index]) contents8[index].style.display = "none";
+            popupFlex3.style.display = "flex";
+        });
+    });
+    
+    //팝업4
+    
+    const btns21 = document.querySelectorAll("[id^='learn-more-btn21']");
+    const btns22 = document.querySelectorAll("[id^='learn-more-btn22']");
+    const btns23 = document.querySelectorAll("[id^='learn-more-btn23']");
+    const btns24 = document.querySelectorAll("[id^='learn-more-btn24']");
+    
+    const popupFlex4 = document.querySelector(".popup-flex4");
+    const contents21 = document.querySelectorAll(".more-content21");
+    const contents22 = document.querySelectorAll(".more-content22");
+    const contents23 = document.querySelectorAll(".more-content23");
+    const contents24 = document.querySelectorAll(".more-content24");
+    const backBtns3 = document.querySelectorAll(".back-btn4");
+    
+    const hideAllContents3 = () => {
+        [contents21, contents22, contents23, contents24].forEach(contents => {
+            contents.forEach(content => {
+                content.style.display = "none";
+            });
+        });
+    }
+    
+    btns21.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents3();
+            popupFlex4.style.display = "none";
+            contents21[index].style.display = "block";
+        });
+    });
+    
+    btns22.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents3();
+            popupFlex4.style.display = "none";
+            contents22[index].style.display = "block";
+        });
+    });
+    
+    btns23.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents3();
+            popupFlex4.style.display = "none";
+            contents23[index].style.display = "block";
+        });
+    });
+    
+    btns24.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents3(); 
+            popupFlex4.style.display = "none";
+            contents24[index].style.display = "block";
+        });
+    });
+    
+    backBtns3.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents3();
+            popupFlex4.style.display = "flex";
+        });
+    });
+    
+    // 페이지 로딩 시 more-content를 모두 숨김
+     
+    
+    backBtns.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents();
+            popupFlex2.style.display = "flex";
+        });
+    });
+    
+    //팝업5
+    
+    const btns31 = document.querySelectorAll("[id^='learn-more-btn31']");
+    const btns32 = document.querySelectorAll("[id^='learn-more-btn32']");
+    const btns33 = document.querySelectorAll("[id^='learn-more-btn33']");
+    const btns34 = document.querySelectorAll("[id^='learn-more-btn34']");
+    
+    const popupFlex5 = document.querySelector(".popup-flex5");
+    const contents31 = document.querySelectorAll(".more-content31");
+    const contents32 = document.querySelectorAll(".more-content32");
+    const contents33 = document.querySelectorAll(".more-content33");
+    const contents34 = document.querySelectorAll(".more-content34");
+    const backBtns4 = document.querySelectorAll(".back-btn5");
+    
+    const hideAllContents4 = () => {
+        [contents31, contents32, contents33, contents34].forEach(contents => {
+            contents.forEach(content => {
+                content.style.display = "none";
+            });
+        });
+    }
+    
+    btns31.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents4();
+            popupFlex5.style.display = "none";
+            contents31[index].style.display = "block";
+        });
+    });
+    
+    btns32.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents4();
+            popupFlex5.style.display = "none";
+            contents32[index].style.display = "block";
+        });
+    });
+    
+    btns33.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents4();
+            popupFlex5.style.display = "none";
+            contents33[index].style.display = "block";
+        });
+    });
+    
+    btns34.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents4();
+            popupFlex5.style.display = "none";
+            contents34[index].style.display = "block";
+        });
+    });
+    
+    backBtns4.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents4();
+            popupFlex5.style.display = "flex";
+        });
+    });
+    
+    // 페이지 로딩 시 more-content를 모두 숨김
+     
+    
+    backBtns.forEach((btn, index) => {
+        btn.addEventListener("click", function() {
+            hideAllContents4();
+            popupFlex2.style.display = "flex";
+        });
+
+        
+    });
+    
+    window.onload = function() {
+        // 팝업2 초기화
+        hideAllContents();
+        popupFlex2.style.display = "flex";
+    
+        // 팝업3 초기화
+        hideAllContents2();
+        popupFlex3.style.display = "flex";
+    
+        // 팝업4 초기화
+        hideAllContents3();
+        popupFlex4.style.display = "flex"; 
+    
+        // 팝업5 초기화
+        hideAllContents4();
+        popupFlex5.style.display = "flex"; 
+    }
+    
+    
+    
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+    var chartInitialized = false; // 차트가 초기화 되었는지 확인하는 변수
+    
+    // learn-more-btn 클릭 이벤트
+    $('#learned-more-btn').click(function() {
+        // more-content가 표시될 때 차트 애니메이션 활성화
+        if (!chartInitialized && $('.more-content').css('display') !== 'none') {
+            $('.chart').easyPieChart({
+                size: 160,
+                barColor: "#000",
+                scaleLength: 0,
+                lineWidth: 15,
+                trackColor: "#c1c1c1",
+                lineCap: "circle",
+                animate: 2000,
+            });
+            chartInitialized = true; // 차트가 초기화되었다는 것을 표시
+        }
+    });
+});
+
+/// 비디오 엘리먼트 가져오기
+const videoElement = document.querySelector("#content1 video");
+
+// back-btn2 클릭 시 (팝업으로 되돌아가기)
+document.querySelector(".back-btn2").addEventListener("click", function() {
+    videoElement.pause(); // 비디오 일시 정지
+});
+
+// extracontent로 넘어갈 때 (next-page-extra 버튼 클릭 시)
+document.getElementById("next-page").addEventListener("click", function() {
+    videoElement.pause(); // 비디오 일시 정지
+});
+
+
+/// 비디오 엘리먼트 가져오기
+const videoElement2 = document.querySelector("#content2 video");
+
+// back-btn2 클릭 시 (팝업으로 되돌아가기)
+document.querySelector(".back-btn2").addEventListener("click", function() {
+    videoElement2.pause(); // 비디오 일시 정지
+});
+
+// extracontent로 넘어갈 때 (next-page-extra 버튼 클릭 시)
+document.getElementById("next-page2").addEventListener("click", function() {
+    videoElement2.pause(); // 비디오 일시 정지
+});
+
+/// 비디오 엘리먼트 가져오기
+const videoElement3 = document.querySelector("#content3 video");
+
+// back-btn2 클릭 시 (팝업으로 되돌아가기)
+document.querySelector(".back-btn2").addEventListener("click", function() {
+    videoElement3.pause(); // 비디오 일시 정지
+});
+
+// extracontent로 넘어갈 때 (next-page-extra 버튼 클릭 시)
+document.getElementById("next-page3").addEventListener("click", function() {
+    videoElement3.pause(); // 비디오 일시 정지
+});
+
+
+
+
+// 초기 상태에서 content1 표시, content2 숨김
+document.getElementById("content1").style.display = "block";
+document.getElementById("content15").style.display = "none";
+
+// content1에서 next-page 버튼 클릭
+document.getElementById("next-page").addEventListener("click", function() {
+    document.getElementById("content1").style.display = "none";
+    document.getElementById("content15").style.display = "block";
+});
+
+// content2에서 prev-page-extra 버튼 클릭
+document.getElementById("prev-page-extra").addEventListener("click", function() {
+    document.getElementById("content15").style.display = "none";
+    document.getElementById("content1").style.display = "block";
+});
+
+//--
+
+// 초기 상태에서 content1 표시, content2 숨김
+document.getElementById("content2").style.display = "block";
+document.getElementById("content25").style.display = "none";
+
+// content1에서 next-page 버튼 클릭
+document.getElementById("next-page2").addEventListener("click", function() {
+    document.getElementById("content2").style.display = "none";
+    document.getElementById("content25").style.display = "block";
+});
+
+// content2에서 prev-page-extra 버튼 클릭
+document.getElementById("prev-page-extra2").addEventListener("click", function() {
+    document.getElementById("content25").style.display = "none";
+    document.getElementById("content2").style.display = "block";
+});
+
+//--
+
+// 초기 상태에서 content1 표시, content2 숨김
+document.getElementById("content3").style.display = "block";
+document.getElementById("content35").style.display = "none";
+
+// content1에서 next-page 버튼 클릭
+document.getElementById("next-page3").addEventListener("click", function() {
+    document.getElementById("content3").style.display = "none";
+    document.getElementById("content35").style.display = "block";
+});
+
+// content2에서 prev-page-extra 버튼 클릭
+document.getElementById("prev-page-extra3").addEventListener("click", function() {
+    document.getElementById("content35").style.display = "none";
+    document.getElementById("content3").style.display = "block";
+});
+
+const pages = document.querySelectorAll('.page');
+        const progressBar = document.getElementById('progress');
+        let currentPage = 0;
+
+        function showPage(page) {
+            pages.forEach(p => p.style.display = 'none');
+            if (page >= 0 && page < pages.length) {
+                pages[page].style.display = 'block';
+                currentPage = page;
+                updateProgressBar();
+                updateNavigationButtons();
+            }
+        }
+
+        function nextPage() {
+            if (currentPage < pages.length - 1) {
+                showPage(currentPage + 1);
+            }
+        }
+
+        function prevPage() {
+            if (currentPage > 0) {
+                showPage(currentPage - 1);
+            }
+        }
+
+        function updateProgressBar() {
+            const percent = ((currentPage + 1) / pages.length) * 100;
+            progressBar.style.width = percent + '%';
+        }
+
+        function updateNavigationButtons() {
+            const prevPageButton = document.getElementById('prev-page');
+            const nextPageButton = document.getElementById('next-page');
+
+            if (currentPage === 0) {
+                prevPageButton.style.pointerEvents = 'none'; // 비활성화
+            } else {
+                prevPageButton.style.pointerEvents = 'auto'; // 활성화
+            }
+
+            if (currentPage === pages.length - 1) {
+                nextPageButton.style.pointerEvents = 'none'; // 비활성화
+            } else {
+                nextPageButton.style.pointerEvents = 'auto'; // 활성화
+            }
+        }
+
+        showPage(currentPage);
+        updateNavigationButtons();
+
+
+        //
+
+        const pages2 = document.querySelectorAll('.page2');
+const progressBar2 = document.getElementById('progress2');
+let currentPage2 = 0;
+
+function showPage2(page) {
+    pages2.forEach(p => p.style.display = 'none');
+    if (page >= 0 && page < pages2.length) {
+        pages2[page].style.display = 'block';
+        currentPage2 = page;
+        updateProgressBar2();
+        updateNavigationButtons2();
+    }
+}
+
+function nextPage2() {
+    if (currentPage2 < pages2.length - 1) {
+        showPage2(currentPage2 + 1);
+    }
+}
+
+function prevPage2() {
+    if (currentPage2 > 0) {
+        showPage2(currentPage2 - 1);
+    }
+}
+
+function updateProgressBar2() {
+    const percent = ((currentPage2 + 1) / pages2.length) * 100;
+    progressBar2.style.width = percent + '%';
+}
+
+function updateNavigationButtons2() {
+    const prevPageButton2 = document.getElementById('prev-page2');
+    const nextPageButton2 = document.getElementById('next-page2');
+
+    if (currentPage2 === 0) {
+        prevPageButton2.style.pointerEvents = 'none'; // 비활성화
+    } else {
+        prevPageButton2.style.pointerEvents = 'auto'; // 활성화
+    }
+
+    if (currentPage2 === pages2.length - 1) {
+        nextPageButton2.style.pointerEvents = 'none'; // 비활성화
+    } else {
+        nextPageButton2.style.pointerEvents = 'auto'; // 활성화
+    }
+}
+
+
+
+showPage2(currentPage2);
+updateNavigationButtons2();
+
+
+ //
+
+const pages3 = document.querySelectorAll('.page3');
+const progressBar3 = document.getElementById('progress3');
+let currentPage3 = 0;
+
+function showPage3(page) {
+    pages3.forEach(p => p.style.display = 'none');
+    if (page >= 0 && page < pages3.length) {
+        pages3[page].style.display = 'block';
+        currentPage3 = page;
+        updateProgressBar3();
+        updateNavigationButtons3();
+    }
+}
+
+function nextPage3() {
+    if (currentPage3 < pages3.length - 1) {
+        showPage3(currentPage3 + 1);
+    }
+}
+
+function prevPage3() {
+    if (currentPage3 > 0) {
+        showPage3(currentPage3 - 1);
+    }
+}
+
+function updateProgressBar3() {
+    const percent = ((currentPage3 + 1) / pages3.length) * 100;
+    progressBar3.style.width = percent + '%';
+}
+
+function updateNavigationButtons3() {
+    const prevPageButton3 = document.getElementById('prev-page2');
+    const nextPageButton3 = document.getElementById('next-page2');
+
+    if (currentPage3 === 0) {
+        prevPageButton3.style.pointerEvents = 'none'; // 비활성화
+    } else {
+        prevPageButton3.style.pointerEvents = 'auto'; // 활성화
+    }
+
+    if (currentPage3 === pages3.length - 1) {
+        nextPageButton3.style.pointerEvents = 'none'; // 비활성화
+    } else {
+        nextPageButton3.style.pointerEvents = 'auto'; // 활성화
+    }
+}
+
+showPage3(currentPage3);
+updateNavigationButtons3();
+
+$('square').on('click', function(){
+  $('.popup, .square').toggleClass('active');
+  
+  return false;
+});
+    // 팝업 열기
+document.querySelector('.tea-popup-trigger').addEventListener('click', function() {
+    document.getElementById('teapopup').style.display = 'block';
+});
+
+
+document.querySelector('.sia-popup-trigger').addEventListener('click', function() {
+    document.getElementById('siapopup').style.display = 'block';
+});
+
+function closePopup() {
+    document.getElementById('teapopup').style.display = 'none';
+    document.getElementById('siapopup').style.display = 'none';
+}
+
+$(document).ready(function() {
+    // 팝업 숨기기
+    $('#teapopup, #siapopup').hide();
+});
+
+
+//오셜록
+const magnifier = document.getElementById('Sulloc-magnifier');
+        const selectionBoxes = [document.getElementById('Sulloc-selectionBox1'), document.getElementById('Sulloc-selectionBox2')];
+        const buttons = [document.querySelector('.Sulloc-button1'), document.querySelector('.Sulloc-button2')];
+        const images = ["img/teamain.jpg", "img/Osub.jpg"];
+
+        let isDragging = false;
+        let startX, startY, initialLeft, initialTop;
+        let selectedImage = 1;
+
+        magnifier.style.backgroundImage = `url(${images[selectedImage - 1]})`;
+
+        function showImage(imageNumber) {
+            selectedImage = imageNumber;
+            document.getElementById('Sulloc-imageContainer1').style.display = imageNumber === 1 ? 'block' : 'none';
+            document.getElementById('Sulloc-imageContainer2').style.display = imageNumber === 2 ? 'block' : 'none';
+            magnifier.style.backgroundImage = `url(${images[selectedImage - 1]})`;
+            updateMagnifier();
+            updateButtonStyles();
+        }
+
+        function updateButtonStyles() {
+            buttons.forEach((button, index) => {
+                if (index + 1 === selectedImage) {
+                    button.classList.add('clicked');
+                } else {
+                    button.classList.remove('clicked');
+                }
+            });
+        }
+
+        selectionBoxes.forEach((selectionBox, index) => {
+            selectionBox.addEventListener('mousedown', (e) => {
+                if (selectedImage !== index + 1) return;
+                isDragging = true;
+                startX = e.clientX;
+                startY = e.clientY;
+                initialLeft = selectionBox.offsetLeft;
+                initialTop = selectionBox.offsetTop;
+                selectionBox.style.cursor = 'grabbing';
+            });
+
+            document.addEventListener('mousemove', (e) => {
+                if (!isDragging || selectedImage !== index + 1) return;
+                const dx = e.clientX - startX;
+                const dy = e.clientY - startY;
+                let newLeft = initialLeft + dx;
+                let newTop = initialTop + dy;
+
+                newLeft = Math.max(0, Math.min(newLeft, (selectionBox.parentElement.clientWidth - selectionBox.clientWidth)));
+                newTop = Math.max(0, Math.min(newTop, (selectionBox.parentElement.clientHeight - selectionBox.clientHeight)));
+
+                selectionBox.style.left = newLeft + 'px';
+                selectionBox.style.top = newTop + 'px';
+
+                updateMagnifier();
+            });
+
+            document.addEventListener('mouseup', () => {
+                if (!isDragging || selectedImage !== index + 1) return;
+                isDragging = false;
+                selectionBox.style.cursor = 'grab';
+            });
+        });
+
+        function updateMagnifier() {
+            const selectedSelectionBox = selectionBoxes[selectedImage - 1];
+            const ratioX = selectedSelectionBox.offsetLeft / (selectedSelectionBox.parentElement.clientWidth - selectedSelectionBox.clientWidth);
+            const ratioY = selectedSelectionBox.offsetTop / (selectedSelectionBox.parentElement.clientHeight - selectedSelectionBox.clientHeight);
+
+            const backgroundX = ratioX * 100;
+            const backgroundY = ratioY * 100;
+
+            magnifier.style.backgroundPosition = `${backgroundX}% ${backgroundY}%`;
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+    showImage(1);});
+
+//오셜록//
+
+//경기미술관
+
+document.addEventListener('DOMContentLoaded', () => {
+    const box1 = document.getElementById('gartm-box1');
+    const box2 = document.getElementById('gartm-box2');
+
+    box1.classList.remove('gartm-hover-effect');
+    box2.style.overflowY = 'hidden';
+   
+    
+
+    const largeBoxStyles = {
+        width: '600px',
+        height: '600px',
+        zIndex: '2',
+        left: '0',
+        top: '172px'
+    };
+
+    const smallBoxStyles = {
+        width: '400px',
+        height: '700px',
+        zIndex: '1',
+        left: '450px',
+        top: '50px'
+    };
+
+    let isBox1Large = true;
+
+    
+
+    function switchBoxes(event) {
+       
+        
+    if (isBox1Large) {
+        const clickedBox = event.currentTarget;
+        
+        if (clickedBox === box2) {
+            // box1을 smallBox의 위치로 이동
+            box1.style.width = smallBoxStyles.width;
+            box1.style.height = smallBoxStyles.height;
+            box1.style.zIndex = smallBoxStyles.zIndex;
+            box1.style.left = smallBoxStyles.left;
+            box1.style.top = smallBoxStyles.top;
+
+            // box2를 largeBox의 위치로 이동
+            box2.style.width = largeBoxStyles.width;
+            box2.style.height = largeBoxStyles.height;
+            box2.style.zIndex = largeBoxStyles.zIndex;
+            box2.style.left = largeBoxStyles.left;
+            box2.style.top = largeBoxStyles.top;
+
+            box2.classList.remove('gartm-hover-effect');
+            box1.classList.add('gartm-hover-effect');
+            const clickedBox = event.currentTarget;
+            isBox1Large = false;
+            
+            box1.style.overflowY = 'hidden';
+            // box2의 스크롤 활성화
+            box2.style.overflowY = 'scroll';
+
+        }
+    } else {
+        const clickedBox = event.currentTarget;
+       
+        if (clickedBox === box1) {
+            // box1을 largeBox의 위치로 이동
+            box1.style.width = largeBoxStyles.width;
+            box1.style.height = largeBoxStyles.height;
+            box1.style.zIndex = largeBoxStyles.zIndex;
+            box1.style.left = largeBoxStyles.left;
+            box1.style.top = largeBoxStyles.top;
+
+            // box2를 smallBox의 위치로 이동
+            box2.style.width = smallBoxStyles.width;
+            box2.style.height = smallBoxStyles.height;
+            box2.style.zIndex = smallBoxStyles.zIndex;
+            box2.style.left = smallBoxStyles.left;
+            box2.style.top = smallBoxStyles.top;
+
+            box1.classList.remove('gartm-hover-effect');
+            box2.classList.add('gartm-hover-effect');
+            isBox1Large = true;
+            box2.style.overflowY = 'hidden';
+            // box2의 스크롤 활성화
+            box1.style.overflowY = 'scroll';
+            
+        }
+    }
+}
+
+box1.addEventListener('click', switchBoxes);
+box2.addEventListener('click', switchBoxes);
+});
+
+//경기미술관
+
+//혜초
+
+// 팝업을 나갈 때마다 비디오를 초기화하고 재생합니다.
+    document.querySelector(".back-btn4").addEventListener("click", function() {
+    const videoElement = document.querySelector("#heacho-overlay-img");
+    videoElement.currentTime = 0; // 비디오를 처음부터 시작하도록 설정
+    videoElement.play(); // 비디오를 재생합니다.
+});
+
+
+
+//혜초
+
+    
+  </script>
+</body>
+</html>
